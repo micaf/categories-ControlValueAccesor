@@ -8,22 +8,18 @@ Implementing Control Value Accessor.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 Also run local serve with  `npm run start:server`
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Main View
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Simple table implemented with angular material to display the categories
 
-## Further help
+![image](https://github.com/micaf/categories-ControlValueAccesor/assets/45270860/c84cc73a-6bd6-4c17-800c-7fa701735350)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Form View
+
+View of the form implemented with Reactive Forms and Control Value Accessor. The Name field is required.
+
+![image](https://github.com/micaf/categories-ControlValueAccesor/assets/45270860/c74a8c72-0371-4ed8-8c5f-5519d3f0ff9d)
