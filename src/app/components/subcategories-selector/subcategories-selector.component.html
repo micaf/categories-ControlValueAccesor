@@ -1,0 +1,14 @@
+<div class="subcategories-selector">
+    <h2>SottoCategorie</h2>
+    <div *ngFor="let subcategory of subcategories" class="subcategory-item">
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          [value]="subcategory"
+          (change)="changeSelection(subcategory)"
+        />
+        <span class="checkmark"></span>
+        {{ subcategory.name }}
+      </label>
+    </div>
+  </div>

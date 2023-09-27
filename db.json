@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "News Channels",
+      "referenceCode": "NEWSCH",
+      "subCategories": [
+        {
+          "id": "01",
+          "name": "World News",
+          "referenceCode": "WORLDNEWS"
+        },
+        {
+          "id": "02",
+          "name": "Local News",
+          "referenceCode": "LOCALNEWS"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Entertainment Channels",
+      "referenceCode": "ENTCH",
+      "SubCategories": [
+        {
+          "id": "03",
+          "name": "Drama Series",
+          "referenceCode": "DRAMASERIES"
+        },
+        {
+          "id": "04",
+          "name": "Reality Shows",
+          "referenceCode": "REALITYSHOWS"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sports Channels",
+      "referenceCode": "SPORTSCH",
+      "SubCategories": [
+        {
+          "id": "05",
+          "name": "Football",
+          "referenceCode": "FOOTBALL"
+        },
+        {
+          "id": "06",
+          "name": "Basketball",
+          "referenceCode": "BASKETBALL"
+        }
+      ]
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "03",
+      "name": "Drama Series",
+      "referenceCode": "DRAMASERIES"
+    },
+    {
+      "id": "04",
+      "name": "Reality Shows",
+      "referenceCode": "REALITYSHOWS"
+    },
+    {
+      "id": "05",
+      "name": "Football",
+      "referenceCode": "FOOTBALL"
+    },
+    {
+      "id": "06",
+      "name": "Basketball",
+      "referenceCode": "BASKETBALL"
+    },
+    {
+      "id": "01",
+      "name": "World News",
+      "referenceCode": "WORLDNEWS"
+    },
+    {
+      "id": "02",
+      "name": "Local News",
+      "referenceCode": "LOCALNEWS"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+app-categories {
+    .circular-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px; 
+        height: 30px;
+        border-radius: 50%;
+        background-color: #cdd0d2; 
+        color: #ffffff; 
+        border: none;
+        cursor: pointer;
+        position: relative;
+        transition: background-color 0.3s ease; 
+        margin-bottom: 50px;
+      
+        .button-content {
+          display: none; 
+        }
+      
+        .cross-icon {
+          position: absolute;
+          font-size: 24px;
+          transition: transform 0.3s ease; 
+        }
+      
+        &:hover {
+          background-color: #c2cfd3; 
+          .button-content {
+            display: inline; 
+          }
+          .cross-icon {
+            transform: rotate(45deg); 
+          }
+        }
+      
+        &:focus {
+          outline: none; 
+        }
+      }
+
+    table > thead > tr,  table > tbody > tr {
+        color: white !important
+      }
+} 

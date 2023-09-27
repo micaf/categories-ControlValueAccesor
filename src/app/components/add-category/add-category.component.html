@@ -1,0 +1,30 @@
+
+<app-spinner *ngIf="isLoading"></app-spinner>
+
+
+<mat-card class="card" *ngIf="!isLoading">
+    <form [formGroup]="categoryForm" (ngSubmit)="addCategory()">
+      <div class="form-group">
+        <mat-form-field>
+            <input type="text" matInput formControlName="name" placeholder="Nome" required>
+          </mat-form-field>
+      </div>
+  
+      <div class="form-group">
+        <mat-form-field>
+          <input type="text" matInput formControlName="referenceCode" placeholder="Codice di riferimento">
+        </mat-form-field>
+      </div>
+  
+      <div class="form-group">
+        <app-subcategories-selector formControlName="subcategories"></app-subcategories-selector>
+      </div>
+  
+      <div class="button-group">
+        <button class="submit-button" mat-raised-button type="submit" [disabled]="!categoryForm.valid">Aggiungi</button>
+        <button class="cancel-button" mat-raised-button [routerLink]="['/categories']">Cancella</button>
+      </div>
+    </form>
+  </mat-card>
+
+  

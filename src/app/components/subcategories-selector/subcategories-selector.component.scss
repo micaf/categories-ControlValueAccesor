@@ -1,0 +1,74 @@
+.subcategories-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgb(122, 120, 120);
+    padding: 16px;
+    background-color: #535151;
+    border-radius: 4px;
+  
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+  
+    .subcategory-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+  
+      .checkbox-label {
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+  
+        input[type="checkbox"] {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+  
+          &:checked + .checkmark {
+            background-color: #919497; 
+            border-color: #919497;
+          }
+  
+          &:checked + .checkmark:after {
+            display: block
+          }
+          &:checked + .checkmark:after {
+            display: block;
+          }
+        }
+  
+        .checkmark {
+          position: relative;
+          width: 10px;
+          height: 10px;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          margin-right: 8px;
+  
+          &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 2px;
+            top: 0px;
+            width: 4px;
+            height: 8px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+          }
+        }
+  
+        input[type="checkbox"]:disabled + .checkmark {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
